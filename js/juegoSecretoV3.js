@@ -31,7 +31,6 @@ function sortearNumeros(cantidad) {
                     break;
                 }
             }
-    
             if (encontrado == false){
                 secretos.push(numeroAleatorio);
                 i++
@@ -39,9 +38,7 @@ function sortearNumeros(cantidad) {
         }
     }
     
-
     return secretos;
-
 }
 
 let secretos = sortearNumeros(4); //Array
